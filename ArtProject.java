@@ -28,6 +28,7 @@ class GraphicsPanel2 extends JPanel {
         
         Random rand = new Random();
         
+        //For Loops to randomly generate size and placements of each shape. Also reset color before each loop.
         g.setColor(Color.MAGENTA);
         for(int i = 0; i < 10; i++){
             g.fillOval(rand.nextInt(getWidth()),rand.nextInt(getHeight()),rand.nextInt(getWidth()),rand.nextInt(getHeight()));
